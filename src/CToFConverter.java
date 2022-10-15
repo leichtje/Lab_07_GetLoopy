@@ -16,7 +16,7 @@ public class CToFConverter {
                 correct=true;
                 degreesCelsius = in.nextDouble();
                 degreesFahrenheit = degreesCelsius * 1.8 + 32;
-                System.out.println("The temperature in fahrenheit is: " + degreesFahrenheit);
+                System.out.printf("The temperature in fahrenheit is:%.2f ", degreesFahrenheit);
             } else {
                 trash = in.nextLine();
                 System.out.println("You have inputted an invalid temperature: " + trash + " Please try again");
